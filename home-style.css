@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    background-color: #F2F4FC;
+}
+* {
+    font-family: Roboto;
+    margin: 0px;
+}
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+p {
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
+/* For screens bigger than 992px */
+/* @media only screen and (min-width: 992px) { 
+} */
+.blueButton {
+    background-color: #072ACB;
+    padding: 10px 30px 10px 30px;
+    font-size: 17px;
+    color: white;
+    border: none;
+}
+.navBarContainer {
+    padding:  70px 170px 0px 170px;
+    margin-bottom: 100px
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+}
+.navBar .headerLogo {
+    height: 20px;
+}
+.navBar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.navBar #liCenter {
+    margin: 0px 60px 0px 60px;
+}
+.navBar li {
+    font-size: 17px;
+}
+/* heroContainer */
+.heroContainer {
+    padding: 0 170px 0 170px;
+    margin-bottom: 130px;
+}
+.hero {
+    display: flex;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+}
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55%
+}
+.heroContent div {
+    display: flex;
+    align-items: center;
+}
+.heroContent a {
+    margin-left: 40px;
+}
+.heroImage {
+    background-image: url(/src/hero-section/hero-image.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.heroImage img {
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+} 
+.heroImage .heroLeft {
+    display: flex;
+    justify-content: left;
+}
+.heroImage .heroRight {
+    display: flex;
+    justify-content: right;
+}
+.clientContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    margin: 0px 170px 0px 170px;
+}
+.clientContainer img {
+    height: 25px;
+    filter: grayscale(100%);
+}
