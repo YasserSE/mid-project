@@ -527,7 +527,20 @@ footer {
     /* testimonial */
     .testimonialContainer {
         margin: 0;
+        height: fit-content;
+        padding: 15% 5%;
     }
-
-    /* services */
+    .lineTestimonial h3 {
+        font-size: 1.3rem;
+        text-align: center;
+        width: 60%;
+    }
+    .lineTestimonial img {
+        width: 60px;
+    }
+    .testimonial {
+        font-size: 1.3rem;
+        margin: 20% 0;
+    }
+    /* services commit */
 }
