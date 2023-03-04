@@ -1,0 +1,849 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    background-color: #F2F4FC;
+}
+* {
+    font-family: Roboto;
+    margin: 0px;
+}
+
+
+/* Fonts and styles */
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+p {
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
+.bIntroMedium{
+    font-size: 24px;
+    font-weight: 500;
+}
+.bHeadlineRegular{
+    font-size: 17px;
+    font-weight: 400;
+    color: #6b709d;
+}
+.bodyRegular{
+    font-size: 20px;
+    font-weight: 400;
+    color: #6b709d;
+}
+/* For screens bigger than 992px */
+/* @media only screen and (min-width: 992px) { 
+} */
+.blueButton {
+    background-color: #072ACB;
+    padding: 15px 30px;
+    font-size: 17px;
+    color: white;
+    border: none;
+}
+.navBarContainer {
+    padding:  70px 170px 0px 170px;
+    margin-bottom: 100px
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+}
+.navBar .headerLogo {
+    height: 20px;
+}
+.navBar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.navBar #liCenter {
+    margin: 0px 60px 0px 60px;
+}
+.navBar li {
+    font-size: 17px;
+}
+
+
+/* heroContainer */
+.heroContainer {
+    padding: 0 170px 0 170px;
+    margin-bottom: 130px;
+    height: 650px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%
+}
+.heroContent h1 {
+    margin-bottom: 30px;
+}
+.heroContent div {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.heroContent a {
+    margin-left: 40px;
+}
+.heroImage {
+    background-image: url(/src/hero-section/hero-image.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.heroImage img {
+    height: 12vw;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+} 
+.heroImage .heroLeft {
+    display: flex;
+    justify-content: left;
+}
+.heroImage .heroRight {
+    display: flex;
+    justify-content: right;
+}
+
+
+/* clients */
+.clientContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    margin: 0px 170px 200px 170px;
+}
+.clientContainer img {
+    height: 25px;
+    filter: grayscale(100%);
+}
+
+
+/* project */
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    height: 561px;
+    padding: 0 170px 200px 170px;
+}
+.projectsContainer h3 {
+    margin: 0 0 70px 0;
+}
+.projectsContainer div {
+    display: flex;
+    justify-content: space-between;
+}
+.projectBox {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 440px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.linkBlue {
+    color: #072ac8;
+}
+.projectBox img {
+    width: 100%;
+    height: 50%;
+}
+.projectBox div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 50%;
+    padding: 30px;
+}
+.projectBox .bIntroMedium {
+    margin-bottom: 10px;
+}
+.projectBox .bHeadlineRegular {
+    margin-bottom: 60px;
+}
+
+
+/* testimonial */
+.testimonialContainer {
+    background: url(/src/testimonial-section/orbit.png) no-repeat, #292E47;
+    background-size: contain;
+    height: 622px;
+    margin: 0 60px 200px 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px 70px 30px 70px;
+}
+.centerTestimonial {
+    display: flex;
+    justify-content: center;
+}
+.testimonial {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFC600;
+    text-align: center;
+}
+.lineTestimonial{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.lineTestimonial img {
+    width: 150px;
+}
+.profileTestimonial {
+    display: flex;
+    align-items: center;
+}
+.profileTestName {
+    font-weight: 400;
+    color: #a2d6f9;
+    margin-bottom: 5px;
+}
+.profileTestimonial img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+/* services */
+.servicesContainer {
+   padding: 0px 170px 60px 170px;
+   display: flex;
+   flex-direction: column;
+   height: 560px;
+}
+.servicesContainer h3 {
+    margin-bottom: 70px
+}
+.servicesBoxes {
+    display: flex;
+    justify-content: space-between;
+}
+.serviceBox {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.serviceBox div {
+    padding: 10px 30px 30px 30px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.serviceBox img {
+   width: 40px;
+   margin: 30px 0px 30px 30px;
+   padding: 20px;
+   background-color: #ECF7FF;
+   border-radius: 50px;
+}
+.serviceBox .bodyRegular {
+    margin: 20px 0 60px 0;
+}
+
+
+/* yellowtCta */
+.ctaContainer {
+    margin: 0px 60px 150px 60px;
+    background-color: #FFC600;
+    height: 500px;
+    padding: 0px 110px 0px 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ctaContainer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.ctaContainer b {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.ctaContainer input {
+    height: 80px;
+    width: 400px;
+    margin-right: 15px;
+    border: none;
+}
+.ctaContainer ::placeholder {
+    font-size: 20px;
+    color: black;
+  }
+.ctaContainer button {
+    background-color: #072ACB;
+    height: 80px;
+    width: 200px;
+    padding: 10px 30px 10px 30px;
+    font-size: 17px;
+    color: white;
+    border: none;
+}
+
+/* footer */
+footer {
+    padding: 30px 170px 100px 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.footAddress {
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.footAddress img {
+    height: 30px;
+    margin-bottom: 40px;
+}
+.linkContainer{
+    width: 50%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+.footLinks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1200px) {
+    /* hero */ 
+    .heroContainer {
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .heroContent{
+        width: 45%;
+    }
+    .heroContainer h1 {
+        font-size: 2.3em;
+    }
+    .heroContainer p {
+        font-size: 1.2em;
+    }
+     .heroImage {
+        height: 500px;
+        justify-content: space-evenly;
+     }
+     .heroImage img {
+        height: 100px;
+     }
+
+     /* services */
+     .serviceBox .bIntroMedium {
+        font-size: 1.1em;
+     }
+     .serviceBox .bodyRegular {
+        font-size: 0.9em;
+     }
+    /* cta */
+    .ctaContainer input {
+        height: 80px;
+        width: 300px;
+        margin-right: 15px;
+        border: none;
+    }
+    .ctaContainer button {
+        background-color: #072ACB;
+        height: 80px;
+        width: 200px;
+        padding: 10px 30px 10px 30px;
+        font-size: 17px;
+        color: white;
+        border: none;
+    }
+}
+@media only screen and (max-width: 800px){
+    body {
+        font-size: 16px;
+    }
+    .blueButton {
+        background-color: #072ACB;
+        padding: 5px 10px;
+        font-size: 15px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+    }
+    /* header */
+    .navBarContainer {
+        height: 55px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .navBar {
+        height: 100%;
+        display: flex;
+        padding: 0px 7%;
+    }
+    .navBar ul {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+    }
+    .navBar li {
+        font-size: 15px;
+    }
+    .navBar #liCenter {
+        margin: 0px;
+    }
+    /* hero section */
+    .heroContainer h1 {
+        font-size: 3em;
+    }
+    .heroContainer {
+        background-color: #072ac8;
+        color: white;
+        margin: 0px;
+        padding: 0px 0px 20px 0px;
+        height: fit-content;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .heroContent {
+        width: 85%;
+        padding: 5% 5% 0 5%;
+        margin-bottom: 20px;
+    }
+    
+    .heroContent button {
+        background-color: white;
+        color: #072ac8;
+    }
+    .heroContent a {
+        color: white;
+        margin-left: 4%;
+    }
+    .heroImage {
+        height: 300px;
+    }
+    .heroImage img {
+        height: 17vw;
+        width: auto;
+    }
+    /* client section */
+    .clientContainer {
+        width: 90%;
+        margin: 0;
+        padding: 0% 5%;
+        background-color: white;
+    }
+    .clientContainer img {
+        width: 60px;
+    }
+    /* recent projects */
+    .projectsContainer {
+        padding: 5% ;
+        height: fit-content;
+    }
+    .projectsContainer h3 {
+        font-size: 2.1rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .projectsContainer div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .projectBox {
+        height: 70vh;
+        margin: 20px 10px;
+        width: 60%;
+        border-radius: 25px;
+    }
+    .projectBox img {
+        width: 100%;
+        height: 60%;
+        border-radius: 25px 25px 0px 0px;
+    }
+    .projectBox div {
+        width: 90%;
+        padding: 5% 5% 0 5%;
+        border-radius: 0px 0px 25px 25px;
+    }
+    .projectBox .bHeadlineRegular {
+        margin-bottom: 10px;
+    }
+
+    /* testimonial */
+    .testimonialContainer {
+        margin: 0;
+        height: fit-content;
+        padding: 10% 5%;
+    }
+    .lineTestimonial h3 {
+        font-size: 2rem;
+        text-align: center;
+        width: 60%;
+    }
+    .lineTestimonial img {
+        width: 100px;
+    }
+    .testimonial {
+        font-size: 1.3rem;
+        margin: 10% 0;
+        padding: 5%;
+        border-radius: 25px;
+        background-color: #FFC600;
+        color: #292E47;
+    }
+    .profileTestimonial img {
+        width: 40px;
+        height: 40px;
+    }
+    /* services commit */
+    .servicesContainer {
+        padding: 5% ;
+        height: fit-content;
+    }
+    .servicesContainer h3 {
+        font-size: 2.1rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .servicesBoxes {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+    .serviceBox {
+        height: 60vh;
+        margin: 20px 10px;
+        width: 60%;
+        border-radius: 25px;
+    }
+    .serviceBox div {
+        padding: 10px 30px 0px 30px;
+    }
+    .serviceBox .bodyRegular {
+        margin-bottom: 20px;
+    }
+    .serviceBox img {
+        
+    }
+    /* cta */
+    .ctaContainer {
+        margin: 0;
+        height: fit-content;
+        padding: 15% 5%;
+    }
+    .ctaContainer h3 {
+        font-size: 2.3rem;
+        text-align: center;
+        width: 90%;
+    }
+    .ctaContainer form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ctaContainer input {
+        border-radius: 25px;
+        margin-bottom: 20px;
+        height: 70px;
+    }
+    .ctaContainer button {
+        border-radius: 25px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .ctaContainer ::placeholder {
+        font-size: 16px;
+        color: black;
+      }
+    /* footer */
+    footer {
+        margin: 0;
+        height: fit-content;
+        padding: 15% 5%;
+        margin-bottom: 50px;
+    }
+    .footAddress {
+        margin-top: 5px;
+    }
+    .linkContainer {
+        margin-left: 5%;
+    }
+    .linkContainer a {
+        margin: 5px 0px 5px 0px; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .blueButton {
+        background-color: #072ACB;
+        padding: 5px 10px;
+        font-size: 13px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+    }
+    /* header */
+    .navBarContainer {
+        height: 55px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .navBar {
+        height: 100%;
+        display: flex;
+        padding: 0px 2%;
+    }
+    .navBar ul {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+    }
+    .navBar li {
+        font-size: 13px;
+    }
+    .navBar #liCenter {
+        margin: 0px;
+    }
+    /* hero section */
+    .heroContainer h1 {
+        font-size: 3em;
+    }
+    .heroContainer {
+        background-color: #072ac8;
+        color: white;
+        margin: 0px;
+        padding: 0px 0px 20px 0px;
+        height: fit-content;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+    .heroContent {
+        width: 85%;
+        padding: 10% 5% 0 5%;
+    }
+    .heroContent span {
+        display: none;
+    }
+    .heroContent button {
+        background-color: white;
+        color: #072ac8;
+    }
+    .heroContent a {
+        color: white;
+        margin-left: 4%;
+    }
+    .heroImage {
+        height: 300px;
+    }
+    .heroImage img {
+        height: 17vw;
+        width: auto;
+    }
+    /* client section */
+    .clientContainer {
+        width: 90%;
+        margin: 0;
+        padding: 0% 5%;
+    }
+    .clientContainer img {
+        width: 60px;
+    }
+    /* recent projects */
+    .projectsContainer {
+        padding: 5% ;
+        height: fit-content;
+    }
+    .projectsContainer h3 {
+        font-size: 2.1rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .projectsContainer div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .projectBox {
+        height: 40vh;
+        margin: 20px 10px;
+        width: 80%;
+        border-radius: 25px;
+    }
+    .projectBox img {
+        width: 100%;
+        height: 60%;
+        border-radius: 25px 25px 0px 0px;
+    }
+    .projectBox div {
+        width: 90%;
+        padding: 5% 5% 0 5%;
+        border-radius: 0px 0px 25px 25px;
+    }
+    .projectBox .bHeadlineRegular {
+        margin-bottom: 10px;
+    }
+
+    /* testimonial */
+    .testimonialContainer {
+        margin: 0;
+        height: fit-content;
+        padding: 15% 5%;
+    }
+    .lineTestimonial h3 {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 60%;
+    }
+    .lineTestimonial img {
+        width: 60px;
+    }
+    .testimonial {
+        font-size: 1.3rem;
+        margin: 20% 0;
+        padding: 5%;
+        border-radius: 25px;
+        background-color: #FFC600;
+        color: #292E47;
+    }
+    .profileTestimonial img {
+        width: 40px;
+        height: 40px;
+    }
+    /* services commit */
+    .servicesContainer {
+        padding: 5% ;
+        height: fit-content;
+    }
+    .servicesContainer h3 {
+        font-size: 2.1rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .servicesBoxes {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+    .serviceBox {
+        height: 40vh;
+        margin: 20px 10px;
+        width: 80%;
+        border-radius: 25px;
+    }
+    .serviceBox div {
+        padding: 10px 30px 0px 30px;
+    }
+    .serviceBox .bodyRegular {
+        margin-bottom: 20px;
+    }
+    .serviceBox img {
+        
+    }
+    /* cta */
+    .ctaContainer {
+        margin: 0;
+        height: fit-content;
+        padding: 15% 5%;
+    }
+    .ctaContainer h3 {
+        font-size: 1.8rem;
+        text-align: center;
+        width: 60%;
+    }
+    .ctaContainer form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ctaContainer input {
+        border-radius: 25px;
+        margin-bottom: 20px;
+        height: 50px;
+    }
+    .ctaContainer button {
+        border-radius: 25px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .ctaContainer ::placeholder {
+        font-size: 14px;
+        color: black;
+      }
+    /* footer */
+    footer {
+        margin: 0;
+        height: fit-content;
+        padding: 15% 5%;
+        margin-bottom: 50px;
+    }
+    .footAddress {
+        margin-top: 5px;
+    }
+    .linkContainer {
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    .linkContainer a {
+        margin: 5px 0px; 
+    }
+}
