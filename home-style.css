@@ -51,7 +51,7 @@ a {
 } */
 .blueButton {
     background-color: #072ACB;
-    padding: 10px 30px 10px 30px;
+    padding: 15px 30px;
     font-size: 17px;
     color: white;
     border: none;
@@ -73,7 +73,6 @@ a {
     list-style: none;
     display: flex;
     justify-content: center;
-    
 }
 .navBar #liCenter {
     margin: 0px 60px 0px 60px;
@@ -276,8 +275,11 @@ a {
     justify-content: stretch;
 }
 .serviceBox img {
-   height: 40px;
-   padding: 30px;
+   width: 40px;
+   margin: 30px 0px 30px 30px;
+   padding: 20px;
+   background-color: #ECF7FF;
+   border-radius: 50px;
 }
 .serviceBox .bodyRegular {
     margin: 20px 0 60px 0;
@@ -347,12 +349,12 @@ footer {
     width: 50%;
     height: 110px;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 .footLinks {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -406,6 +408,442 @@ footer {
         border: none;
     }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 800px){
+    body {
+        font-size: 16px;
+    }
+    .blueButton {
+        background-color: #072ACB;
+        padding: 5px 10px;
+        font-size: 15px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+    }
+    /* header */
+    .navBarContainer {
+        height: 55px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .navBar {
+        height: 100%;
+        display: flex;
+        padding: 0px 7%;
+    }
+    .navBar ul {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+    }
+    .navBar li {
+        font-size: 15px;
+    }
+    .navBar #liCenter {
+        margin: 0px;
+    }
+    /* hero section */
+    .heroContainer h1 {
+        font-size: 3em;
+    }
+    .heroContainer {
+        background-color: #072ac8;
+        color: white;
+        margin: 0px;
+        padding: 0px 0px 20px 0px;
+        height: fit-content;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .heroContent {
+        width: 85%;
+        padding: 5% 5% 0 5%;
+        margin-bottom: 20px;
+    }
+    
+    .heroContent button {
+        background-color: white;
+        color: #072ac8;
+    }
+    .heroContent a {
+        color: white;
+        margin-left: 4%;
+    }
+    .heroImage {
+        height: 300px;
+    }
+    .heroImage img {
+        height: 17vw;
+        width: auto;
+    }
+    /* client section */
+    .clientContainer {
+        width: 90%;
+        margin: 0;
+        padding: 0% 5%;
+        background-color: white;
+    }
+    .clientContainer img {
+        width: 60px;
+    }
+    /* recent projects */
+    .projectsContainer {
+        padding: 5% ;
+        height: fit-content;
+    }
+    .projectsContainer h3 {
+        font-size: 2.1rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .projectsContainer div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .projectBox {
+        height: 70vh;
+        margin: 20px 10px;
+        width: 60%;
+        border-radius: 25px;
+    }
+    .projectBox img {
+        width: 100%;
+        height: 60%;
+        border-radius: 25px 25px 0px 0px;
+    }
+    .projectBox div {
+        width: 90%;
+        padding: 5% 5% 0 5%;
+        border-radius: 0px 0px 25px 25px;
+    }
+    .projectBox .bHeadlineRegular {
+        margin-bottom: 10px;
+    }
 
+    /* testimonial */
+    .testimonialContainer {
+        margin: 0;
+        height: fit-content;
+        padding: 10% 5%;
+    }
+    .lineTestimonial h3 {
+        font-size: 2rem;
+        text-align: center;
+        width: 60%;
+    }
+    .lineTestimonial img {
+        width: 100px;
+    }
+    .testimonial {
+        font-size: 1.3rem;
+        margin: 10% 0;
+        padding: 5%;
+        border-radius: 25px;
+        background-color: #FFC600;
+        color: #292E47;
+    }
+    .profileTestimonial img {
+        width: 40px;
+        height: 40px;
+    }
+    /* services commit */
+    .servicesContainer {
+        padding: 5% ;
+        height: fit-content;
+    }
+    .servicesContainer h3 {
+        font-size: 2.1rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .servicesBoxes {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+    .serviceBox {
+        height: 60vh;
+        margin: 20px 10px;
+        width: 60%;
+        border-radius: 25px;
+    }
+    .serviceBox div {
+        padding: 10px 30px 0px 30px;
+    }
+    .serviceBox .bodyRegular {
+        margin-bottom: 20px;
+    }
+    .serviceBox img {
+        
+    }
+    /* cta */
+    .ctaContainer {
+        margin: 0;
+        height: fit-content;
+        padding: 15% 5%;
+    }
+    .ctaContainer h3 {
+        font-size: 2.3rem;
+        text-align: center;
+        width: 90%;
+    }
+    .ctaContainer form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ctaContainer input {
+        border-radius: 25px;
+        margin-bottom: 20px;
+        height: 70px;
+    }
+    .ctaContainer button {
+        border-radius: 25px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .ctaContainer ::placeholder {
+        font-size: 16px;
+        color: black;
+      }
+    /* footer */
+    footer {
+        margin: 0;
+        height: fit-content;
+        padding: 15% 5%;
+        margin-bottom: 50px;
+    }
+    .footAddress {
+        margin-top: 5px;
+    }
+    .linkContainer {
+        margin-left: 5%;
+    }
+    .linkContainer a {
+        margin: 5px 0px 5px 0px; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .blueButton {
+        background-color: #072ACB;
+        padding: 5px 10px;
+        font-size: 13px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+    }
+    /* header */
+    .navBarContainer {
+        height: 55px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .navBar {
+        height: 100%;
+        display: flex;
+        padding: 0px 2%;
+    }
+    .navBar ul {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+    }
+    .navBar li {
+        font-size: 13px;
+    }
+    .navBar #liCenter {
+        margin: 0px;
+    }
+    /* hero section */
+    .heroContainer h1 {
+        font-size: 3em;
+    }
+    .heroContainer {
+        background-color: #072ac8;
+        color: white;
+        margin: 0px;
+        padding: 0px 0px 20px 0px;
+        height: fit-content;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+    .heroContent {
+        width: 85%;
+        padding: 10% 5% 0 5%;
+    }
+    .heroContent span {
+        display: none;
+    }
+    .heroContent button {
+        background-color: white;
+        color: #072ac8;
+    }
+    .heroContent a {
+        color: white;
+        margin-left: 4%;
+    }
+    .heroImage {
+        height: 300px;
+    }
+    .heroImage img {
+        height: 17vw;
+        width: auto;
+    }
+    /* client section */
+    .clientContainer {
+        width: 90%;
+        margin: 0;
+        padding: 0% 5%;
+    }
+    .clientContainer img {
+        width: 60px;
+    }
+    /* recent projects */
+    .projectsContainer {
+        padding: 5% ;
+        height: fit-content;
+    }
+    .projectsContainer h3 {
+        font-size: 2.1rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .projectsContainer div {
+        flex-direction: column;
+        align-items: center;
+    }
+    .projectBox {
+        height: 40vh;
+        margin: 20px 10px;
+        width: 80%;
+        border-radius: 25px;
+    }
+    .projectBox img {
+        width: 100%;
+        height: 60%;
+        border-radius: 25px 25px 0px 0px;
+    }
+    .projectBox div {
+        width: 90%;
+        padding: 5% 5% 0 5%;
+        border-radius: 0px 0px 25px 25px;
+    }
+    .projectBox .bHeadlineRegular {
+        margin-bottom: 10px;
+    }
+
+    /* testimonial */
+    .testimonialContainer {
+        margin: 0;
+        height: fit-content;
+        padding: 15% 5%;
+    }
+    .lineTestimonial h3 {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 60%;
+    }
+    .lineTestimonial img {
+        width: 60px;
+    }
+    .testimonial {
+        font-size: 1.3rem;
+        margin: 20% 0;
+        padding: 5%;
+        border-radius: 25px;
+        background-color: #FFC600;
+        color: #292E47;
+    }
+    .profileTestimonial img {
+        width: 40px;
+        height: 40px;
+    }
+    /* services commit */
+    .servicesContainer {
+        padding: 5% ;
+        height: fit-content;
+    }
+    .servicesContainer h3 {
+        font-size: 2.1rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .servicesBoxes {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+    .serviceBox {
+        height: 40vh;
+        margin: 20px 10px;
+        width: 80%;
+        border-radius: 25px;
+    }
+    .serviceBox div {
+        padding: 10px 30px 0px 30px;
+    }
+    .serviceBox .bodyRegular {
+        margin-bottom: 20px;
+    }
+    .serviceBox img {
+        
+    }
+    /* cta */
+    .ctaContainer {
+        margin: 0;
+        height: fit-content;
+        padding: 15% 5%;
+    }
+    .ctaContainer h3 {
+        font-size: 1.8rem;
+        text-align: center;
+        width: 60%;
+    }
+    .ctaContainer form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ctaContainer input {
+        border-radius: 25px;
+        margin-bottom: 20px;
+        height: 50px;
+    }
+    .ctaContainer button {
+        border-radius: 25px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .ctaContainer ::placeholder {
+        font-size: 14px;
+        color: black;
+      }
+    /* footer */
+    footer {
+        margin: 0;
+        height: fit-content;
+        padding: 15% 5%;
+        margin-bottom: 50px;
+    }
+    .footAddress {
+        margin-top: 5px;
+    }
+    .linkContainer {
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    .linkContainer a {
+        margin: 5px 0px; 
+    }
 }
