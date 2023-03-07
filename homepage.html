@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Circle HomePage</title>
     <link rel="stylesheet" href="/home-style.css" />
-    <link
-      rel="icon"
-      href="/src/hero-section/hero-image.png"
-      type="image/png"
-    />
+    <link rel="icon" href="/src/hero-section/hero-image.png" type="image/png" />
   </head>
   <body>
     <!-- Navigation -->
@@ -18,9 +14,11 @@
       <nav class="navBar">
         <img class="headerLogo" src="/src/logos/circle.svg" alt="Circle Logo" />
         <ul>
-          <li>Home</li>
-          <li id="liCenter">Projects</li>
-          <li>Services</li>
+          <li><a href="/homepage.html">Home</a></li>
+          <li id="liCenter">
+            <a href="/project-page/project-page.html">Projects</a>
+          </li>
+          <li><a href="/contact-page/">Services</a></li>
         </ul>
         <button class="blueButton">Contact Us</button>
       </nav>
@@ -31,8 +29,8 @@
         <div class="heroContent">
           <h1>Empower Your<br />Business With<br />Stunning Design!</h1>
           <p>
-            <span>Circle is a digital design and development studio.</span><br>We design
-            and develop astonishing websites and mobile apps.
+            <span>Circle is a digital design and development studio.</span
+            ><br />We design and develop astonishing websites and mobile apps.
           </p>
           <div>
             <button class="blueButton">Get in touch</button>
@@ -58,7 +56,7 @@
       <img src="/src/logos/microsoft-logo.svg" alt="Logo5" />
     </section>
     <!-- Recent Project Section -->
-    <section class="projectsContainer">
+    <section class="projectsContainer" id="project-anchor">
       <h3>Recent Projects</h3>
       <div>
         <div class="projectBox">
