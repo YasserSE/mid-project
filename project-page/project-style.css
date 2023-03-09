@@ -67,8 +67,9 @@ a {
 .navBar li {
     font-size: 17px;
 }
-
-
+.navBarContainer span {
+    color: #072ac8;
+}
 /* projectName */
 .projectNameContainer {
     margin: 40px 170px 80px 170px;

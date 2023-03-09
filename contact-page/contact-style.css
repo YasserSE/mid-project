@@ -63,6 +63,9 @@ a {
 .navBar li {
     font-size: 17px;
 }
+.navBarContainer span {
+    color: #072ac8;
+}
 
 /* Form */
 .formContainer {
@@ -190,6 +193,17 @@ footer {
         padding-right: 7%;
         padding-bottom: 50px;
     }
+    .formContainer input {
+        height: 50px;
+        border-radius: 15px;
+    }
+    .formContainer textarea{
+        border-radius: 15px;
+    }
+    .submitButton {
+        height: 50px;
+        padding: 0;
+    }
     /* footer */
     footer {
         margin: 0;
@@ -243,6 +257,27 @@ footer {
     .navBar #liCenter {
         margin: 0px;
     }
+    /*form*/
+    h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .formContainer {
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-bottom: 50px;
+    }
+    .formContainer input {
+        height: 40px;
+        border-radius: 15px;
+    }
+    .formContainer textarea{
+        border-radius: 15px;
+    }
+    .submitButton {
+        height: 50px;
+        padding: 0;
+    }
     /* footer */
     footer {
         margin: 0;
@@ -260,4 +295,5 @@ footer {
     .linkContainer a {
         margin: 5px 0px; 
     }
+    
 }

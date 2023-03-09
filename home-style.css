@@ -78,8 +78,9 @@ a {
 .navBar li {
     font-size: 17px;
 }
-
-
+.navBarContainer span {
+    color: #072ac8;
+}
 /* heroContainer */
 .heroContainer {
     padding: 0 170px 0 170px;
