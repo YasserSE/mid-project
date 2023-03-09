@@ -12,15 +12,15 @@
     <!-- Navigation -->
     <div class="navBarContainer">
       <nav class="navBar">
-        <img class="headerLogo" src="/src/logos/circle.svg" alt="Circle Logo" />
+        <a href="/homepage.html"><img class="headerLogo" src="/src/logos/circle.svg" alt="Circle Logo" /></a>
         <ul>
           <li><a href="/homepage.html">Home</a></li>
           <li id="liCenter">
-            <a href="/project-page/project-page.html">Projects</a>
+            <a href="/project-page/project-page.html"><span>Projects</span></a>
           </li>
-          <li><a href="/contact-page/">Services</a></li>
+          <li><a href="/homepage.html#servicesAnchor">Services</a></li>
         </ul>
-        <button class="blueButton">Contact Us</button>
+        <a href="/contact-page/contact-page.html"><button class="blueButton">Contact Us</button></a>
       </nav>
     </div>
     <!--projectName-->
@@ -38,9 +38,50 @@
 
             <br><br>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad e dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad e dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nis cillum minim tempor enim. </p>
     </section>
-
-
-
+    <!-- Other Project Section -->
+    <section class="projectsContainer" id="project-anchor">
+      <h3>Recent Projects</h3>
+      <div>
+        <div class="projectBox">
+          <img src="/src/projects-section/4.jpg" />
+          <div>
+            <b class="bIntroMedium">Orbit</b>
+            <b class="bHeadlineRegular">UI Design</b>
+            <a class="linkBlue" href="">Learn More</a>
+          </div>
+        </div>
+        <div class="projectBox">
+          <img src="/src/projects-section/6.jpg" />
+          <div>
+            <b class="bIntroMedium">Purify</b>
+            <b class="bHeadlineRegular">UI/UX Design</b>
+            <a class="linkBlue" href="">Learn More</a>
+          </div>
+        </div>
+        <div class="projectBox">
+          <img src="/src/projects-section/2.jpg" />
+          <div>
+            <b class="bIntroMedium">CryptoPie</b>
+            <b class="bHeadlineRegular">App Development</b>
+            <a class="linkBlue" href="">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cta -->
+    <section class="ctaContainer">
+      <div>
+        <h3>Do you have any questions?</h3>
+        <b>Let us help you!</b>
+      </div>
+      <form method="post" action="send-email.php">
+        <input
+          type="email"
+          placeholder="  &#9993; Enter your email"
+          required
+        /><button type="submit">Subscribe</button>
+      </form>
+    </section>
     <!-- footer -->
     <footer>
       <div class="footAddress">

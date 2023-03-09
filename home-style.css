@@ -46,9 +46,6 @@ a {
     font-weight: 400;
     color: #6b709d;
 }
-/* For screens bigger than 992px */
-/* @media only screen and (min-width: 992px) { 
-} */
 .blueButton {
     background-color: #072ACB;
     padding: 15px 30px;
@@ -56,6 +53,7 @@ a {
     color: white;
     border: none;
 }
+/* header */
 .navBarContainer {
     padding:  70px 170px 0px 170px;
     margin-bottom: 100px
@@ -80,8 +78,9 @@ a {
 .navBar li {
     font-size: 17px;
 }
-
-
+.navBarContainer span {
+    color: #072ac8;
+}
 /* heroContainer */
 .heroContainer {
     padding: 0 170px 0 170px;
