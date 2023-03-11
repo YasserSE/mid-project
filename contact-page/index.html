@@ -18,7 +18,7 @@
           <li id="liCenter">
             <a href="/project-page/index.html">Projects</a>
           </li>
-          <li><a href="#servicesAnchor">Services</a></li>
+          <li><a href="/index.html#servicesAnchor">Services</a></li>
         </ul>
         <a href="/contact-page/index.html"><button class="blueButton">Contact Us</button></a>
       </nav>
@@ -27,21 +27,21 @@
     <section class="formContainer">
         <h1>Contact Us</h1>
         <form action="">
-            <label for="name" id="name">Full Name *</label><br>
+            <label for="name">Full Name *</label><br>
             <input id="name" type="text" placeholder="Enter your full name" required>
             <div class="centerInput">
                 <div>
-                    <label for="email" id="email">Email</label><br>
-                    <input id="email" type="email" placeholder="Enter your email address">
+                    <label for="email">Email</label><br>
+                    <input id="email" type="email" placeholder="Enter your email address" required>
                 </div>
                 <div>
-                    <label for="phone" id="phone">Phone</label><br>
-                    <input id="phone" type="number" placeholder="Enter your phone number">
+                    <label for="phone">Phone</label><br>
+                    <input id="phone" type="number" placeholder="Enter your phone number" required>
                 </div>
             </div>
-            <label for="message" id="message">Message</label><br>
+            <label for="message">Message</label><br>
             <textarea id="message" name="message" rows="6" cols="20">Write your message here ...</textarea>
-            <button type="submit" class="submitButton">submit</button>
+            <button type="button" class="submitButton">submit</button>
         </form>
     </section>
       <!--Footer-->
@@ -65,6 +65,7 @@
             <a href="" class="bHeadlineRegular">Privacy Policy</a>
           </div>
         </div>
-      </footer>  
+      </footer>
+      <script src="/contactsScripts/contactScript.js"></script>
 </body>
 </html>
