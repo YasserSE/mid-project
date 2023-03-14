@@ -1,71 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
     <link rel="stylesheet" href="/contact-page/contact-style.css" />
     <link rel="icon" href="/src/hero-section/hero-image.png" type="image/png" />
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navigation -->
     <div class="navBarContainer">
       <nav class="navBar">
-        <a href="/index.html"><img class="headerLogo" src="/src/logos/circle.svg" alt="Circle Logo" /></a>
+        <a href="/index.html"
+          ><img
+            class="headerLogo"
+            src="/src/logos/circle.svg"
+            alt="Circle Logo"
+        /></a>
         <ul>
-          <li><a href="/index.html"><span>Home</span></a></li>
+          <li>
+            <a href="/index.html"><span>Home</span></a>
+          </li>
           <li id="liCenter">
             <a href="/project-page/index.html">Projects</a>
           </li>
           <li><a href="/index.html#servicesAnchor">Services</a></li>
         </ul>
-        <a href="/contact-page/index.html"><button class="blueButton">Contact Us</button></a>
+        <a href="/contact-page/index.html"
+          ><button class="blueButton">Contact Us</button></a
+        >
       </nav>
     </div>
     <!--FormTitle-->
     <section class="formContainer">
-        <h1>Contact Us</h1>
-        <form action="">
-            <label for="name">Full Name *</label><br>
-            <input id="name" type="text" placeholder="Enter your full name" required>
-            <div class="centerInput">
-                <div>
-                    <label for="email">Email</label><br>
-                    <input id="email" type="email" placeholder="Enter your email address" required>
-                </div>
-                <div>
-                    <label for="phone">Phone</label><br>
-                    <input id="phone" type="number" placeholder="Enter your phone number" required>
-                </div>
-            </div>
-            <label for="message">Message</label><br>
-            <textarea id="message" name="message" rows="6" cols="20">Write your message here ...</textarea>
-            <button type="button" class="submitButton">submit</button>
-        </form>
+      <h1>Contact Us</h1>
+      <form>
+        <label for="name">Full Name*</label><br />
+        <input
+          id="name"
+          type="text"
+          placeholder="Enter your full name"
+          required
+        />
+        <div class="centerInput">
+          <div>
+            <label for="email">Email*</label><br />
+            <input
+              id="email"
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+          </div>
+          <div>
+            <label for="phone">Phone*</label><br />
+            <input
+              id="phone"
+              type="number"
+              placeholder="Enter your phone number"
+              required
+            />
+          </div>
+        </div>
+        <label for="message">Message</label><br />
+        <textarea id="message" name="message" rows="6" cols="20" placeholder="Write your message here ..."></textarea
+        >
+        <button type="button" class="submitButton">submit</button>
+      </form>
     </section>
-      <!--Footer-->
-      <footer>
-        <div class="footAddress">
-          <img src="/src/logos/circle.svg" />
-          <p class="bHeadlineRegular">2972 Westheimer Rd, Santa Ana</p>
-          <p class="bHeadlineRegular">Illinois 85486</p>
+    <!--Footer-->
+    <footer>
+      <div class="footAddress">
+        <img src="/src/logos/circle.svg" />
+        <p class="bHeadlineRegular">2972 Westheimer Rd, Santa Ana</p>
+        <p class="bHeadlineRegular">Illinois 85486</p>
+      </div>
+      <div class="linkContainer">
+        <div class="footLinks">
+          <a href="" class="bHeadlineRegular">Team</a>
+          <a href="" class="bHeadlineRegular">Press</a>
         </div>
-        <div class="linkContainer">
-          <div class="footLinks">
-            <a href="" class="bHeadlineRegular">Team</a>
-            <a href="" class="bHeadlineRegular">Press</a>
-          </div>
-          <div class="footLinks">
-            <a href="" class="bHeadlineRegular">Services</a>
-            <a href="" class="bHeadlineRegular">Project</a>
-          </div>
-          <div class="footLinks">
-            <a href="" class="bHeadlineRegular">About Us</a>
-            <a href="" class="bHeadlineRegular">Privacy Policy</a>
-          </div>
+        <div class="footLinks">
+          <a href="" class="bHeadlineRegular">Services</a>
+          <a href="" class="bHeadlineRegular">Project</a>
         </div>
-      </footer>
-      <script src="/contactsScripts/contactScript.js"></script>
-</body>
+        <div class="footLinks">
+          <a href="" class="bHeadlineRegular">About Us</a>
+          <a href="" class="bHeadlineRegular">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+    <script src="/contactsScripts/contactScript.js"></script>
+  </body>
 </html>
