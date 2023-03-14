@@ -382,7 +382,11 @@ footer {
      .heroImage img {
         height: 100px;
      }
-
+     /* project */
+     .projectBox img {
+        width: 100%;
+        height: 50%;
+    }
      /* services */
      .serviceBox .bIntroMedium {
         font-size: 1.1em;

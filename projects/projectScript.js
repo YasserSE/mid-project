@@ -53,13 +53,6 @@ async function dynamicProjectPage() {
         const projectPageImg = document.querySelector(".projectContent .projectImage") //set attribute
         const projectPageContent = document.querySelector(".projectContent p")
 
-       
-        console.log(projectPageName)
-        console.log(projectPageDescription)
-        console.log(projectPageDate)
-        console.log(projectPageImg)
-        console.log(projectPageContent)
-
 
         switch(pageUTM){
             case "project1":
