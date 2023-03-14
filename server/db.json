@@ -1,8 +1,28 @@
 {
-    "contacts": [
-     
-    ],
-    "newsletter": [
-      
-    ]
-  }
+  "contacts": [
+    {
+      "name": "Yasser",
+      "email": "ysantiago@soof.es",
+      "phone": "6777",
+      "message": "Hola ",
+      "id": 1
+    },
+    {
+      "name": "Yasser",
+      "email": "ysantiago@soof.es",
+      "phone": "603133562",
+      "message": "",
+      "id": 2
+    }
+  ],
+  "newsletter": [
+    {
+      "email": "Yasser@soof.es",
+      "id": 1
+    },
+    {
+      "email": "yasser@test.com",
+      "id": 2
+    }
+  ]
+}
