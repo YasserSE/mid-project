@@ -1,4 +1,4 @@
-const SERVER_URL = "http://localhost:8000";
+const SERVER_URL = "https://my-json-server.typicode.com/YasserSE/db.json/";
 
 window.onload = () => {
   function _retrieveInfo() {
