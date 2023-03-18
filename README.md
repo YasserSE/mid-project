@@ -7,8 +7,7 @@
 This represents the total web development of a simple company web page. It showcases their projects, information and lets the user contact the company.
 From a simple UX design in Figma to a fully deployed responsive web page. 
 
-https://pitch.com/public/b2bc812c-63f6-4127-a74e-b9811b568db0/da299ea4-f5de-4d50-9571-a1c267dbd0fe
-
+https://pitch.com/public/b2bc812c-63f6-4127-a74e-b9811b568db0
 
 ## THE STACK
 
